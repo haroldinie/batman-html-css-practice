@@ -8,7 +8,7 @@ function capitalArtists(arr) {
   return artists;
 }
 
-runTest("Returns an array of capitalised music artists ", function () {
+runTest("An empty array should return an empty array", function () {
   check(capitalArtists([])).isEqualTo([]);
 });
 runTest("Returns an array of 1 capitalised music artist", function () {
