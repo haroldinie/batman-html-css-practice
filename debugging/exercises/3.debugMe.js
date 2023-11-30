@@ -14,6 +14,6 @@ runTest('Get returnMentorString to return "Hello Hannah!"', function () {
 runTest('Get returnMentorString to return "Hello Lewis!"', function () {
   check(returnMentorString("Lewis")).isEqualTo("Hello Lewis!");
 });
-runTest('Get returnMentorString to return "Hello Lewis!"', function () {
+runTest('Get returnMentorString to return "Hello Harrison!"', function () {
   check(returnMentorString("Harrison")).isEqualTo("Hello Harrison!");
 });
