@@ -16,6 +16,6 @@ function findingNemo(fish) {
 
 // Please do not change code below this line
 
-runTest("Get finsdingNemo to return the name of the given fish", function () {
+runTest("Get findingNemo to return the name of the given fish", function () {
   check(findingNemo("Clown Fish")).isEqualTo("Nemo");
 });
