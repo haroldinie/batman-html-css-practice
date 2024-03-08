@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+/* the above changes the background colour */
+
+
+h1, h2 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+/* changes font family and allows it to fall back on a font if not compatible */
+
+
+.grid-container {
+    display: grid;
+}
+
+body {
+    color: white;
+}
+/* the above alters the text colour */
+
+a {
+    color: gray;
+}
+/* changes colour of all links */
+
+a {
+    font-size: 12px;
+}
+/* changes font size, default font size for the body is 16px, can also do % */
+
+ul, ol {
+    color: gray
+}
+/* changes color of all lists, both unorganised and organised lists */
+
+
+
+
+img {
+    border-radius: 50%;
+}
+/* the above makes the image round and removes the edges */
+
+img {
+    max-width: 5%;
+}
+img {
+    max-height: 5%;
+}
+/* this changes the size of the image  */
+
+img {
+    border: 0px solid;
+}
+/* adds a border the px is pixel size*/
+
+header {
+    padding-bottom: 150px;
+}
+
+header {
+    text-align: center; 
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+
+
+footer {
+    padding-top: 150px;
+}
+
+div {
+    text-align: center;
+}
